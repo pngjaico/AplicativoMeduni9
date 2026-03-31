@@ -1,0 +1,595 @@
+{
+  "pi1": {
+    "nome": "Projeto Integrador 1",
+    "sigla": "PI1",
+    "semestre": 1,
+    "icon": "🔗",
+    "cor": "#E67E22",
+    "descricao": "Integração de casos clínicos com anatomia cardiovascular, síndromes e semiótica básica",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "bcm1": {
+    "nome": "Bases Celulares e Moleculares 1",
+    "sigla": "BCM1",
+    "semestre": 1,
+    "icon": "🧬",
+    "cor": "#4A90E2",
+    "descricao": "Bioquímica e Genética - Estudo das bases moleculares da vida, metabolismo celular e herança genética",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0,
+    "modulos": [
+      {
+        "nome": "Módulo 1 — Química da Vida",
+        "temas": [
+          { "id": "bcm1_agua_ph", "nome": "Água, pH e Tampões Biológicos", "descricao": "Propriedades da água, ionização, pH, pKa, tampões fisiológicos" },
+          { "id": "bcm1_aminoacidos", "nome": "Aminoácidos — Estrutura e Classificação", "descricao": "20 aminoácidos protéicos, grupos R, titulação, ponto isoelétrico" },
+          { "id": "bcm1_proteinas_est", "nome": "Proteínas — Estrutura e Função", "descricao": "Estruturas primária, secundária, terciária e quaternária; desnaturação; hemoglobina e mioglobina" }
+        ]
+      },
+      {
+        "nome": "Módulo 2 — Metabolismo de Carboidratos",
+        "temas": [
+          { "id": "bcm1_carboidratos", "nome": "Carboidratos — Estrutura e Classificação", "descricao": "Monossacarídeos, dissacarídeos, polissacarídeos; glicose, frutose, galactose" },
+          { "id": "bcm1_glicose", "nome": "Glicólise e Regulação", "descricao": "10 etapas da glicólise, enzimas-chave, regulação alostérica, fermentação" },
+          { "id": "bcm1_krebs", "nome": "Ciclo de Krebs (Ácido Cítrico)", "descricao": "8 etapas, enzimas, cofatores, produção de NADH, FADH2 e GTP" },
+          { "id": "bcm1_fosforilacao", "nome": "Fosforilação Oxidativa e Cadeia Respiratória", "descricao": "Complexos I–IV, ATP sintase, quimiosmose, rendimento energético total" },
+          { "id": "bcm1_glicogenio", "nome": "Glicogênio — Síntese e Degradação", "descricao": "Glicogênese, glicogenólise, regulação hormonal (glucagon/insulina), doença de McArdle" },
+          { "id": "bcm1_gliconeogenese", "nome": "Gliconeogênese e Ciclo de Cori", "descricao": "Substratos, enzimas exclusivas, regulação, Ciclo de Cori, Ciclo glicose-alanina" }
+        ]
+      },
+      {
+        "nome": "Módulo 3 — Metabolismo de Lipídeos",
+        "temas": [
+          { "id": "bcm1_lipideos", "nome": "Lipídeos — Estrutura e Classificação", "descricao": "Ácidos graxos, triglicerídeos, fosfolipídeos, colesterol, esfingolipídeos" },
+          { "id": "bcm1_betaoxidacao", "nome": "Beta-oxidação dos Ácidos Graxos", "descricao": "Ativação, transporte (carnitina), espiral de β-oxidação, rendimento energético" },
+          { "id": "bcm1_sintese_ag", "nome": "Síntese de Ácidos Graxos", "descricao": "Acetil-CoA carboxilase, complexo FAS, elongação, dessaturação, regulação" },
+          { "id": "bcm1_corpos_cetonicos", "nome": "Corpos Cetônicos e Lipoproteínas", "descricao": "Cetogênese, cetólise, cetoacidose diabética; quilomícrons, VLDL, LDL, HDL" }
+        ]
+      },
+      {
+        "nome": "Módulo 4 — Metabolismo de Aminoácidos e Nucleotídeos",
+        "temas": [
+          { "id": "bcm1_catabolismo_aa", "nome": "Catabolismo de Aminoácidos e Ciclo da Ureia", "descricao": "Transaminação, desaminação oxidativa, ciclo da ureia, hiperamonemia" },
+          { "id": "bcm1_nucleotideos", "nome": "Nucleotídeos — Estrutura e Metabolismo", "descricao": "Purinas e pirimidinas, síntese de novo vs. salvagem, degradação, gota" }
+        ]
+      },
+      {
+        "nome": "Módulo 5 — Biologia Molecular",
+        "temas": [
+          { "id": "bcm1_dna_replicacao", "nome": "DNA — Estrutura e Replicação", "descricao": "Dupla hélice, bases nitrogenadas, semiconservativa, DNA pol, topoisomerases, telômeros" },
+          { "id": "bcm1_transcricao", "nome": "Transcrição e Processamento do RNA", "descricao": "RNA pol, promotores, mRNA, rRNA, tRNA, splicing, cap 5', cauda poli-A" },
+          { "id": "bcm1_traducao", "nome": "Tradução e Código Genético", "descricao": "Código genético, codons, ribossomos, fases da tradução, modificações pós-traducionais" },
+          { "id": "bcm1_regulacao_genica", "nome": "Regulação Gênica e Mutações", "descricao": "Operon lac, regulação em eucariotos, tipos de mutação, reparo do DNA, proto-oncogenes" }
+        ]
+      },
+      {
+        "nome": "Módulo 6 — Genética",
+        "temas": [
+          { "id": "bcm1_genetica_mendeliana", "nome": "Genética Mendeliana — 1ª e 2ª Leis", "descricao": "Segregação, segregação independente, dominância, recessividade, cruzamentos" },
+          { "id": "bcm1_genetica_ligada_sexo", "nome": "Herança Ligada ao Sexo e Padrões Não-Mendelianos", "descricao": "Cromossomos sexuais, daltonismo, hemofilia, herança mitocondrial, imprinting" },
+          { "id": "bcm1_sindromos_cromossomicos", "nome": "Síndromes Cromossômicas", "descricao": "Down (trissomia 21), Turner (45,X), Klinefelter (47,XXY), cariotipagem" },
+          { "id": "bcm1_biotecnologia", "nome": "Biotecnologia Básica — PCR, Clonagem, Sequenciamento", "descricao": "PCR, eletroforese, RFLP, clonagem molecular, CRISPR-Cas9 introdução" }
+        ]
+      },
+      {
+        "nome": "Módulo 7 — Biologia Celular",
+        "temas": [
+          { "id": "bcm1_organelas", "nome": "Estrutura Celular — Organelas e Compartimentos", "descricao": "Núcleo, mitocôndria, retículo endoplasmático, Golgi, lisossomos, peroxissomos" },
+          { "id": "bcm1_membrana", "nome": "Membrana Celular — Composição e Transporte", "descricao": "Modelo mosaico fluido, transporte passivo/ativo, bomba Na+/K+, osmose, endocitose" },
+          { "id": "bcm1_ciclo_celular", "nome": "Ciclo Celular e Divisão Celular (Mitose/Meiose)", "descricao": "Fases G1/S/G2/M, ciclinas, CDKs, checkpoints, mitose vs. meiose, crossing-over" },
+          { "id": "bcm1_sinalizacao", "nome": "Sinalização Celular", "descricao": "Receptores de membrana, GPCRs, AMPc, cascata MAPK, sinalização por insulina" }
+        ]
+      },
+      {
+        "nome": "Módulo 8 — Enzimologia",
+        "temas": [
+          { "id": "bcm1_enzimas_cinetica", "nome": "Enzimas — Cinética e Inibição", "descricao": "Michaelis-Menten, Km, Vmax, inibição competitiva/não-competitiva/irreversível, alosteria" },
+          { "id": "bcm1_vitaminas", "nome": "Vitaminas e Coenzimas", "descricao": "Vitaminas hidrossolúveis (B1–B12, C) e lipossolúveis (A, D, E, K), coenzimas derivadas" }
+        ]
+      },
+      {
+        "nome": "Módulo 9 — Integração Metabólica",
+        "temas": [
+          { "id": "bcm1_acido_base", "nome": "Equilíbrio Ácido-Base e Gasometria", "descricao": "pH, pCO2, HCO3, acidose/alcalose respiratória e metabólica, compensações" },
+          { "id": "bcm1_integracao", "nome": "Integração Metabólica — Diabetes, Jejum e Exercício", "descricao": "Estado alimentado vs. jejum, papel dos hormônios, DM1/DM2, exercício aeróbio e anaeróbio" }
+        ]
+      }
+    ]
+  },
+  "bmf1": {
+    "nome": "Bases Morfofuncionais 1",
+    "sigla": "BMF1",
+    "semestre": 1,
+    "icon": "🦴",
+    "cor": "#E85D75",
+    "descricao": "Anatomia, Histologia e Biofísica — Aparelho Locomotor e bases morfofuncionais",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0,
+    "modulos": [
+      {
+        "nome": "Histologia — Módulo 1: Introdução e Técnicas",
+        "temas": [
+          { "id": "bmf1_tecnicas_hist", "nome": "Técnicas Histológicas", "descricao": "Preparo de lâminas, colorações (HE, PAS, tricômico), microscopia óptica e eletrônica" },
+          { "id": "bmf1_membrana_bio", "nome": "Membranas Biológicas", "descricao": "Modelo mosaico fluido, fosfolipídeos, colesterol, proteínas integrais e periféricas" },
+          { "id": "bmf1_organelas", "nome": "Organelas Membranosas e Citoesqueleto", "descricao": "Retículo endoplasmático, complexo de Golgi, mitocôndria, lisossomos, microtúbulos, actina" }
+        ]
+      },
+      {
+        "nome": "Histologia — Módulo 2: Tecidos Básicos",
+        "temas": [
+          { "id": "bmf1_tec_epitelial", "nome": "Tecido Epitelial", "descricao": "Epitélios de revestimento (simples, estratificado, pseudoestratificado) e glandular; junções celulares" },
+          { "id": "bmf1_tec_conjuntivo", "nome": "Tecido Conjuntivo Propriamente Dito", "descricao": "Células (fibroblasto, macrófago, mastócito), fibras colágenas, elásticas e reticulares; MEC" },
+          { "id": "bmf1_tec_adiposo", "nome": "Tecido Adiposo", "descricao": "Tecido adiposo unilocular e multilocular; distribuição, funções metabólicas e endócrinas" },
+          { "id": "bmf1_tec_cartilaginem", "nome": "Tecido Cartilaginoso", "descricao": "Cartilagem hialina, elástica e fibrosa; condrócitos, pericôndrio, nutrição avascular" },
+          { "id": "bmf1_tec_osseo", "nome": "Tecido Ósseo", "descricao": "Osso compacto e esponjoso, osteoblasto, osteócito, osteoclasto, remodelação óssea, ossificação" },
+          { "id": "bmf1_tec_muscular", "nome": "Tecido Muscular", "descricao": "Músculo esquelético, liso e cardíaco; sarcômero, actina, miosina, mecanismo de contração" }
+        ]
+      },
+      {
+        "nome": "Anatomia — Módulo 1: Generalidades",
+        "temas": [
+          { "id": "bmf1_intro_anatomia", "nome": "Introdução à Anatomia Humana", "descricao": "Terminologia anatômica, planos e eixos, nomenclatura BNA/TA, posição anatômica" },
+          { "id": "bmf1_sist_esqueletico", "nome": "Sistema Esquelético — Generalidades", "descricao": "Classificação dos ossos, estrutura óssea macroscópica, tipos de articulação, crânio e coluna vertebral" },
+          { "id": "bmf1_sist_articular", "nome": "Sistema Articular (Artrologia)", "descricao": "Sinartroses, anfiartroses, diartroses; componentes das articulações sinoviais; articulações do membro inferior" },
+          { "id": "bmf1_sist_muscular_geral", "nome": "Sistema Muscular — Generalidades", "descricao": "Classificação dos músculos, nomenclatura, origem, inserção, ação, inervação; tendões e aponeuroses" }
+        ]
+      },
+      {
+        "nome": "Anatomia — Módulo 2: Membro Inferior",
+        "temas": [
+          { "id": "bmf1_mmii_osteologia", "nome": "Membro Inferior — Osteologia e Artrologia", "descricao": "Cintura pélvica, fêmur, tíbia, fíbula, patela, tarso, metatarso; articulação do quadril, joelho e tornozelo" },
+          { "id": "bmf1_mmii_miologia", "nome": "Membro Inferior — Miologia", "descricao": "Músculos da coxa (quadríceps, isquiotibiais, adutores), perna (tríceps sural, tibial anterior) e pé" },
+          { "id": "bmf1_mmii_vasos_nervos", "nome": "Membro Inferior — Vasos e Nervos", "descricao": "Artéria femoral, poplítea, tibial anterior/posterior, dorsal do pé; veia safena magna; nervos femoral, ciático, fibular, tibial" },
+          { "id": "bmf1_mmii_radio", "nome": "Anatomia Radiológica do Membro Inferior", "descricao": "Leitura de radiografias (AP e perfil), referências anatômicas, fraturas comuns, ângulo de Cobb" }
+        ]
+      },
+      {
+        "nome": "Anatomia — Módulo 3: Membro Superior",
+        "temas": [
+          { "id": "bmf1_mmss_osteologia", "nome": "Membro Superior — Osteologia e Artrologia", "descricao": "Clavícula, escápula, úmero, rádio, ulna, carpo; articulações do ombro, cotovelo e punho" },
+          { "id": "bmf1_mmss_miologia", "nome": "Membro Superior — Miologia", "descricao": "Manguito rotador, deltóide, bíceps, tríceps, músculos do antebraço e mão; casos clínicos de ombro" },
+          { "id": "bmf1_plexo_braquial", "nome": "Plexo Braquial e Nervos do Membro Superior", "descricao": "Raízes C5-T1, troncos, divisões, fascículos; nervos mediano, ulnar, radial, musculocutâneo; lesões" },
+          { "id": "bmf1_mmss_radio", "nome": "Anatomia Radiológica do Membro Superior", "descricao": "Radiografias de ombro, cotovelo e punho; fraturas de Colles, úmero, clavícula; imagens aplicadas" }
+        ]
+      },
+      {
+        "nome": "Anatomia — Módulo 4: Sistema Nervoso e Circulatório",
+        "temas": [
+          { "id": "bmf1_sn_geral", "nome": "Sistema Nervoso — Generalidades", "descricao": "Divisões do SN, neurônio (soma, axônio, dendrito), células da glia, sinapse, vias nervosas" },
+          { "id": "bmf1_sist_circulatorio", "nome": "Sistema Circulatório — Generalidades", "descricao": "Coração, circulação sistêmica e pulmonar, artérias, veias, capilares; compartimentos fisiológicos" }
+        ]
+      },
+      {
+        "nome": "Biofísica",
+        "temas": [
+          { "id": "bmf1_pot_membrana", "nome": "Potencial de Membrana e Potencial de Ação", "descricao": "Potencial de repouso, canais iônicos, lei de Nernst, equação de Goldman, potencial de ação, período refratário" },
+          { "id": "bmf1_transp_membrana", "nome": "Transporte de Membrana", "descricao": "Difusão simples e facilitada, transporte ativo primário/secundário, osmose, filtração, endocitose/exocitose" },
+          { "id": "bmf1_contracao_musc", "nome": "Contração Muscular — Biofísica", "descricao": "Acoplamento excitação-contração, troponina, tropomiosina, ciclo das pontes cruzadas, tetania, fadiga" },
+          { "id": "bmf1_comp_fisiologicos", "nome": "Compartimentos Fisiológicos e Equilíbrio Eletrolítico", "descricao": "LIC, LEC, plasma; osmolaridade, tonicidade, Na+, K+, Cl-; desidratação, edema, regulação renal" }
+        ]
+      }
+    ]
+  },
+  "ips": {
+    "nome": "Introdução às Práticas de Saúde",
+    "sigla": "IPS",
+    "semestre": 1,
+    "icon": "👨‍⚕️",
+    "cor": "#50C878",
+    "descricao": "Introdução às práticas clínicas e profissionais em saúde, desenvolvimento de competências médicas iniciais",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "scaps1": {
+    "nome": "Saúde Coletiva e Atenção Primária 1",
+    "sigla": "SCAPS1",
+    "semestre": 1,
+    "icon": "🏥",
+    "cor": "#FF6B6B",
+    "descricao": "Princípios de saúde pública, epidemiologia básica e atenção primária à saúde",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "mc": {
+    "nome": "Metodologia Científica",
+    "sigla": "MC",
+    "semestre": 1,
+    "icon": "📊",
+    "cor": "#9B59B6",
+    "descricao": "Introdução ao método científico, pesquisa clínica e redação científica",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "bcm2": {
+    "nome": "Bases Celulares e Moleculares 2",
+    "sigla": "BCM2",
+    "semestre": 2,
+    "icon": "🧬",
+    "cor": "#4A90E2",
+    "descricao": "Fisiologia e Microbiologia - Funcionamento dos sistemas do corpo humano e patógenos microbiológicos",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "bmf2": {
+    "nome": "Bases Morfofuncionais 2",
+    "sigla": "BMF2",
+    "semestre": 2,
+    "icon": "❤️",
+    "cor": "#E85D75",
+    "descricao": "Anatomia de sistemas cardiorrespiratório e digestório - Estrutura e função integrada",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "mad1": {
+    "nome": "Mecanismos de Agressão e Defesa 1",
+    "sigla": "MAD1",
+    "semestre": 2,
+    "icon": "🛡️",
+    "cor": "#F39C12",
+    "descricao": "Imunologia e Patologia - Resposta imunológica e mecanismos de doença",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "scaps2": {
+    "nome": "Saúde Coletiva e Atenção Primária 2",
+    "sigla": "SCAPS2",
+    "semestre": 2,
+    "icon": "🏥",
+    "cor": "#FF6B6B",
+    "descricao": "Políticas de saúde, programas de prevenção e gestão em atenção primária",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "bioestatistica": {
+    "nome": "Bioestatística",
+    "sigla": "BIOEST",
+    "semestre": 2,
+    "icon": "📈",
+    "cor": "#9B59B6",
+    "descricao": "Estatística aplicada às ciências da saúde e análise de dados clínicos",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "bmf3": {
+    "nome": "Bases Morfofuncionais 3",
+    "sigla": "BMF3",
+    "semestre": 3,
+    "icon": "🧠",
+    "cor": "#E85D75",
+    "descricao": "Neuroanatomia - Estrutura e organização do sistema nervoso central e periférico",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "fisiopato1": {
+    "nome": "Processos Fisiopatológicos 1",
+    "sigla": "FISIOPATO1",
+    "semestre": 3,
+    "icon": "⚠️",
+    "cor": "#E67E22",
+    "descricao": "Fisiopatologia dos principais processos de doença e alterações fisiológicas",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "mad2": {
+    "nome": "Mecanismos de Agressão e Defesa 2",
+    "sigla": "MAD2",
+    "semestre": 3,
+    "icon": "🛡️",
+    "cor": "#F39C12",
+    "descricao": "Aprofundamento em mecanismos imunológicos e processos patológicos avançados",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "scaps3": {
+    "nome": "Saúde Coletiva e Atenção Primária 3",
+    "sigla": "SCAPS3",
+    "semestre": 3,
+    "icon": "🏥",
+    "cor": "#FF6B6B",
+    "descricao": "Planejamento em saúde, vigilância epidemiológica e indicadores de saúde",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "embriologia": {
+    "nome": "Embriologia",
+    "sigla": "EMB",
+    "semestre": 3,
+    "icon": "👶",
+    "cor": "#3498DB",
+    "descricao": "Desenvolvimento embrionário humano e organogênese",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "bmf4": {
+    "nome": "Bases Morfofuncionais 4",
+    "sigla": "BMF4",
+    "semestre": 4,
+    "icon": "🧠",
+    "cor": "#E85D75",
+    "descricao": "Neuroendocrinologia - Sistema nervoso e hormonal integrados",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "farmaco1": {
+    "nome": "Farmacologia 1",
+    "sigla": "FARMACO1",
+    "semestre": 4,
+    "icon": "💊",
+    "cor": "#16A085",
+    "descricao": "Princípios de farmacologia, farmacocinética e dinâmica de medicamentos",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "fisiopato2": {
+    "nome": "Processos Fisiopatológicos 2",
+    "sigla": "FISIOPATO2",
+    "semestre": 4,
+    "icon": "⚠️",
+    "cor": "#E67E22",
+    "descricao": "Continuação de fisiopatologia com foco em sistemas específicos",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "propedeutica1": {
+    "nome": "Propedêutica / Semiologia",
+    "sigla": "PROP1",
+    "semestre": 4,
+    "icon": "🩺",
+    "cor": "#C0392B",
+    "descricao": "Semiologia clínica, anamnese e exame físico sistemático",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "scaps4": {
+    "nome": "Saúde Coletiva e Atenção Primária 4",
+    "sigla": "SCAPS4",
+    "semestre": 4,
+    "icon": "🏥",
+    "cor": "#FF6B6B",
+    "descricao": "Vigilância sanitária, controle de doenças e saúde ocupacional",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "bmdt": {
+    "nome": "Bases Moleculares do Diagnóstico e Terapêutica",
+    "sigla": "BMDT",
+    "semestre": 5,
+    "icon": "🔬",
+    "cor": "#8E44AD",
+    "descricao": "Diagnóstico molecular, terapias direcionadas e medicina personalizada",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "farmaco_aplicada": {
+    "nome": "Farmacologia Aplicada",
+    "sigla": "FARMACO_AP",
+    "semestre": 5,
+    "icon": "💊",
+    "cor": "#16A085",
+    "descricao": "Aplicação de farmacologia em situações clínicas e terapêuticas",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "propedeutica2": {
+    "nome": "Propedêutica 2",
+    "sigla": "PROP2",
+    "semestre": 5,
+    "icon": "🩺",
+    "cor": "#C0392B",
+    "descricao": "Avançado em semiologia, interpretação de achados clínicos e exames complementares",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "scaps5": {
+    "nome": "Saúde Coletiva e Atenção Primária 5",
+    "sigla": "SCAPS5",
+    "semestre": 5,
+    "icon": "🏥",
+    "cor": "#FF6B6B",
+    "descricao": "Programas de prevenção, promoção de saúde e educação em saúde",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "comunicacao": {
+    "nome": "Comunicação",
+    "sigla": "COM",
+    "semestre": 5,
+    "icon": "💬",
+    "cor": "#2980B9",
+    "descricao": "Comunicação médico-paciente, relação terapêutica e habilidades de comunicação",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "clinica_medica1": {
+    "nome": "Clínica Médica 1",
+    "sigla": "CM1",
+    "semestre": 6,
+    "icon": "🏥",
+    "cor": "#27AE60",
+    "descricao": "Clínica médica geral, diagnóstico e tratamento de afecções clínicas",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "cirurgia_geral": {
+    "nome": "Cirurgia Geral",
+    "sigla": "CG",
+    "semestre": 6,
+    "icon": "🔪",
+    "cor": "#C0392B",
+    "descricao": "Princípios cirúrgicos, técnicas operatórias básicas e emergências cirúrgicas",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "tecnica_operatoria1": {
+    "nome": "Técnica Operatória 1",
+    "sigla": "TECOP1",
+    "semestre": 6,
+    "icon": "🔪",
+    "cor": "#E74C3C",
+    "descricao": "Técnicas e procedimentos cirúrgicos fundamentais",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "imagem": {
+    "nome": "Imagem",
+    "sigla": "IMG",
+    "semestre": 6,
+    "icon": "🖼️",
+    "cor": "#34495E",
+    "descricao": "Radiologia, ultrassonografia e outros métodos de diagnóstico por imagem",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "scaps6": {
+    "nome": "Saúde Coletiva e Atenção Primária 6",
+    "sigla": "SCAPS6",
+    "semestre": 6,
+    "icon": "🏥",
+    "cor": "#FF6B6B",
+    "descricao": "Gestão em saúde, qualidade de serviços e satisfação do paciente",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "especialidades_clinicas1": {
+    "nome": "Especialidades Clínicas 1",
+    "sigla": "ESPEC_CLI1",
+    "semestre": 7,
+    "icon": "👨‍⚕️",
+    "cor": "#2980B9",
+    "descricao": "Introdução às especialidades clínicas e doenças específicas",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "especialidades_cirurgicas1": {
+    "nome": "Especialidades Cirúrgicas 1",
+    "sigla": "ESPEC_CIR1",
+    "semestre": 7,
+    "icon": "🔪",
+    "cor": "#E74C3C",
+    "descricao": "Introdução às especialidades cirúrgicas e procedimentos específicos",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "go": {
+    "nome": "Ginecologia e Obstetrícia",
+    "sigla": "GO",
+    "semestre": 7,
+    "icon": "👶",
+    "cor": "#EC407A",
+    "descricao": "Saúde da mulher, gravidez, parto e puerpério",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "pediatria1": {
+    "nome": "Pediatria 1",
+    "sigla": "PED1",
+    "semestre": 7,
+    "icon": "👧",
+    "cor": "#AB47BC",
+    "descricao": "Pediatria geral, crescimento e desenvolvimento infantil",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "scaps7": {
+    "nome": "Saúde Coletiva e Atenção Primária 7",
+    "sigla": "SCAPS7",
+    "semestre": 7,
+    "icon": "🏥",
+    "cor": "#FF6B6B",
+    "descricao": "Saúde da família, cuidados comunitários e promoção de saúde",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "clinica_medica2": {
+    "nome": "Clínica Médica 2",
+    "sigla": "CM2",
+    "semestre": 8,
+    "icon": "🏥",
+    "cor": "#27AE60",
+    "descricao": "Clínica médica avançada e casos complexos",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "especialidades_cirurgicas2": {
+    "nome": "Especialidades Cirúrgicas 2",
+    "sigla": "ESPEC_CIR2",
+    "semestre": 8,
+    "icon": "🔪",
+    "cor": "#E74C3C",
+    "descricao": "Especialidades cirúrgicas avançadas e procedimentos complexos",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "medicina_legal_bioetica": {
+    "nome": "Medicina Legal e Bioética",
+    "sigla": "MLB",
+    "semestre": 8,
+    "icon": "⚖️",
+    "cor": "#7F8C8D",
+    "descricao": "Medicina legal, direito médico e dilemas éticos em saúde",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "saude_mental": {
+    "nome": "Saúde Mental",
+    "sigla": "SM",
+    "semestre": 8,
+    "icon": "🧠",
+    "cor": "#9B59B6",
+    "descricao": "Psiquiatria, transtornos mentais e saúde mental comunitária",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  },
+  "pediatria2": {
+    "nome": "Pediatria 2",
+    "sigla": "PED2",
+    "semestre": 8,
+    "icon": "👧",
+    "cor": "#AB47BC",
+    "descricao": "Pediatria especializada e doenças infantis complexas",
+    "professores": [],
+    "totalCards": 0,
+    "totalQuestoes": 0
+  }
+}
